@@ -4,9 +4,7 @@ workflows:
     environment:
       xcode: latest
       ruby: latest
-      cocoapods: 1.11.3  # specify a Cocoapods version as string
-      node: none
-      flutter: none
+      cocoapods: "1.11.3"  # specify version as string
 
     scripts:
       - name: Install dependencies
