@@ -2,18 +2,15 @@ workflows:
   ios-workflow:
     name: iOS Build & Test
     environment:
-      vars:
-        # Add any environment variables here if needed
-      cocoapods: true  # enable CocoaPods
       xcode: latest
       ruby: latest
-      node: latest
+      cocoapods: 1.11.3  # specify a Cocoapods version as string
+      node: none
       flutter: none
 
     scripts:
       - name: Install dependencies
         script: |
-          gem install cocoapods # ensure latest CocoaPods
           pod install --repo-update
 
       - name: Run tests
@@ -28,7 +25,3 @@ workflows:
     artifacts:
       - build/ios/ipa/*.ipa
       - build/reports/tests/*.xml
-
-    publishing:
-      # Optional: configure publishing or notifications here
-      # e.g. upload IPA to App Store Connect, Firebase, etc.
