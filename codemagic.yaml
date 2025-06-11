@@ -18,7 +18,7 @@ workflows:
             -workspace SixtemiaTest.xcworkspace \
             -scheme SixtemiaTest \
             -sdk iphonesimulator \
-            -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' \
+            -destination "platform=iOS Simulator,name=iPhone 16" \
             ONLY_ACTIVE_ARCH=NO \
             ENABLE_CODE_COVERAGE=YES
 
