@@ -4,11 +4,11 @@ workflows:
     environment:
       xcode: latest
       ruby: "3.2.2"
-      cocoapods: "1.11.3"
 
     scripts:
       - name: Install dependencies
         script: |
+          gem install cocoapods -v 1.11.3
           pod install --repo-update
 
       - name: Run tests
