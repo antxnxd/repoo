@@ -23,12 +23,24 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
-   </TestAction>
+  buildConfiguration = "Debug"
+  selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+  selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+  shouldUseLaunchSchemeArgsEnv = "YES"
+  shouldAutocreateTestPlan = "YES">
+  <Testables>
+    <TestableReference
+      skipped = "NO">
+      <BuildableReference
+        BuildableIdentifier = "primary"
+        BlueprintIdentifier = "4F9111BE215116A60028AC18"
+        BuildableName = "SixtemiaTestTests.xctest"
+        BlueprintName = "SixtemiaTestTests"
+        ReferencedContainer = "container:SixtemiaTest.xcodeproj">
+      </BuildableReference>
+    </TestableReference>
+  </Testables>
+</TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
