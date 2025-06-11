@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="18G103" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DBAirlaunchCategory" representedClassName="DBAirlaunchCategory" syncable="YES">
+        <attribute name="idCategory" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isActive" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="strTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DBAirlaunchNotification" representedClassName="DBAirlaunchNotification" syncable="YES">
+        <attribute name="nid" optional="YES" attributeType="String"/>
+        <attribute name="strCode" optional="YES" attributeType="String"/>
+        <attribute name="strDate" optional="YES" attributeType="String"/>
+        <attribute name="strDesc" optional="YES" attributeType="String"/>
+        <attribute name="strTitle" optional="YES" attributeType="String"/>
+        <attribute name="strUrlImg" optional="YES" attributeType="String"/>
+        <attribute name="strValue" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="DBAirlaunchCategory" positionX="-45" positionY="45" width="128" height="88"/>
+        <element name="DBAirlaunchNotification" positionX="-340.51171875" positionY="33.3828125" width="128" height="148"/>
+    </elements>
+</model>

@@ -1,0 +1,85 @@
+/* 
+  Localizable.strings
+  SixtemiaTest
+
+  Created by lluisborras on 18/9/18.
+  Copyright © 2018 Sixtemia Mobile Studio. All rights reserved.
+*/
+
+
+ERROR_LOCAL_CONTENT = "No s'han pogut actualitzar les dades de l'aplicació, si us plau, revisi la seva connexió a internet.";
+ERROR_NO_CONTENT = "No s'han pogut actualitzar les dades de l'aplicació, si us plau, revisi la seva connexió a internet.";
+GenericErrTitle = "S'ha produït un error.";
+defaultErrorMsg = "S'ha produït un error. Si us plau, torni a intentar-ho més tard.";
+
+
+BOK = "Acceptar";
+BKO = "Cancel·lar";
+RETRY = "Prem aquí per tornar-ho a intentar";
+BSETTINGS = "Configuració";
+close = "Tancar";
+
+//Error genèric
+GenericErrBody = "S'ha produït un error. Si us plau torni a intentar-ho més tard.";
+error.sessionExpired = "La sessió ha caducat";
+
+loading = "Carregant...";
+
+
+
+
+// MARK: CAMERA
+assetsDeniedPermissionLibrary = "Per poder accedir a la biblioteca ha de donar accés a l'app mitjançant la configuració del dispositiu";
+assetsDeniedPermissionCamera = "Per poder utilitzar la càmera ha de donar accés a l'app mitjançant la configuració del dispositiu";
+msgNoCamera = "No s'ha trobat cap càmera al dispositiu";
+btnGallery = "Rodet";
+btnCamera = "Càmera";
+chooseImageTitle = "Afegir una imatge";
+chooImageDescription = "Pots afegir imatges des del rodet o realitzar una fotografia amb la càmera";
+
+// MARK: LOCATION
+locationServicesDisabledTitle = "Serveis de localització desactivats";
+locationServicesDisabledMessage = "Per poder localitzar la seva posició és necessari que activi el servei de localització en la configuració del telèfon";
+
+//MARK: AIRLAUNCH
+airlaunch.title = "Notificacions";
+airlaunch.notificationsListEmpty = "No hi ha notificacions.";
+airlaunch.categoryListEmpty = "No hi ha categories.";
+airlaunch.categoryTitle = "Categories";
+airlaunch.notificationEmptyTitle = "Sense notificacions pendents";
+airlaunch.notificationEmptyDesc = "No hi ha cap notificació pendent a la safata d'entrada.";
+
+general.requieredField = "Camp obligatori";
+general.requieredFields = "Falten camps obligatoris";
+
+// MARK: BIOMETRIC
+biometric.defaultsEvaluateError = "Hi ha problemes per verificar la seva identitat.";
+biometric.defaultsUserCancel = "Ha premut Cancel·lar";
+biometric.defaultsUserFallback = "Ha premut Contrasenya";
+biometric.defaultsBiometryNotAvaible = "La funció Face ID / Touch ID no està disponible";
+biometric.defaultsBiometryNotEnrolled = "La funció Face ID / Touch ID no estan activats";
+biometric.defaultsBiometryLockout = "La funció Face ID / Touch ID està bloquejada.";
+biometric.defaultsError = "La funció Face ID / Touch ID no està configurada.";
+biometric.alertTitle = "Atenció";
+biometric.login = "Accedir com a";
+biometric.saveTouchId = "Posa l'empremta per desar les credencials";
+biometric.disabled = "Accés biomètric no disponible";
+biometric.defaultsEvaluateError = "Error en identificar l'empremta";
+biometric.defaultsBiometryLockout = "Accés bloquejat";
+
+//////////////////////////////////////////////////////////////////////////
+//////////////////////      SixtemiaTest        //////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+login.lbl.title = "Iniciar sessió";
+login.txtField.email = "Correu electrònic";
+login.txtField.password = "Contrasenya";
+login.btn.rememberPwd = "Has oblidat la contrasenya?";
+login.btn.login = "Entreu";
+
+recovery.title = "RECUPERAR CONTRASENYA";
+recovery.lbl.title = "Has oblidat la contrasenya?";
+recovery.lbl.description = "Escriu el teu correu electrònic. T'enviarem instruccions sobre com recuperar la teva contrasenya";
+recovery.btn.email = "Correu electrònic";
+recovery.btn.send = "Enviar";
+recovery.success = "T'hem enviat les instruccions al teu correu electrònic";

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTextFieldLine" customModule="SixtemiaWidgets" customModuleProvider="target">
+            <connections>
+                <outlet property="CS_HEIGHT_VIEW_TXT" destination="pNA-ci-UWA" id="5KD-oQ-bQu"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="bfG-fv-cEF"/>
+                <outlet property="lblMsg" destination="mXj-uA-Ufc" id="ctT-Fx-WQc"/>
+                <outlet property="textField" destination="TZV-3O-ImC" id="ZVo-kf-Zra"/>
+                <outlet property="viewDivider" destination="yzu-4c-YBe" id="Oca-Gk-5Cj"/>
+                <outlet property="viewMsg" destination="NYE-hb-eiA" id="ki0-JV-evI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="427" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="M7h-rj-PXK">
+                    <rect key="frame" x="0.0" y="0.0" width="427" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yUt-7N-YUo">
+                            <rect key="frame" x="0.0" y="0.0" width="427" height="50"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="_Placeholder text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TZV-3O-ImC">
+                                    <rect key="frame" x="0.0" y="0.0" width="427" height="49"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="aB3-dp-3JS"/>
+                                    </connections>
+                                </textField>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yzu-4c-YBe" userLabel="View Devider">
+                                    <rect key="frame" x="0.0" y="49" width="427" height="1"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="zLd-bK-gO5"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="TZV-3O-ImC" firstAttribute="top" secondItem="yUt-7N-YUo" secondAttribute="top" id="2gj-HG-1Qh"/>
+                                <constraint firstAttribute="trailing" secondItem="yzu-4c-YBe" secondAttribute="trailing" id="683-mA-Cv7"/>
+                                <constraint firstAttribute="trailing" secondItem="TZV-3O-ImC" secondAttribute="trailing" id="O28-6n-n5X"/>
+                                <constraint firstItem="yzu-4c-YBe" firstAttribute="top" secondItem="TZV-3O-ImC" secondAttribute="bottom" id="luB-eZ-gL5"/>
+                                <constraint firstAttribute="height" constant="50" id="pNA-ci-UWA"/>
+                                <constraint firstItem="yzu-4c-YBe" firstAttribute="leading" secondItem="yUt-7N-YUo" secondAttribute="leading" id="pkL-Mh-qh6"/>
+                                <constraint firstItem="TZV-3O-ImC" firstAttribute="leading" secondItem="yUt-7N-YUo" secondAttribute="leading" id="qcI-FZ-lbB"/>
+                                <constraint firstAttribute="bottom" secondItem="yzu-4c-YBe" secondAttribute="bottom" id="sTG-j1-HBk"/>
+                            </constraints>
+                        </view>
+                        <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NYE-hb-eiA">
+                            <rect key="frame" x="0.0" y="50" width="427" height="0.0"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXj-uA-Ufc">
+                                    <rect key="frame" x="0.0" y="0.0" width="427" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                    <color key="textColor" red="0.97512548580000002" green="0.32565893629999998" blue="0.234007356" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="mXj-uA-Ufc" firstAttribute="top" secondItem="NYE-hb-eiA" secondAttribute="top" id="1Xf-mF-uuR"/>
+                                <constraint firstItem="mXj-uA-Ufc" firstAttribute="leading" secondItem="NYE-hb-eiA" secondAttribute="leading" id="6oz-Fa-4hW"/>
+                                <constraint firstAttribute="bottom" secondItem="mXj-uA-Ufc" secondAttribute="bottom" id="OUR-sk-0St"/>
+                                <constraint firstAttribute="trailing" secondItem="mXj-uA-Ufc" secondAttribute="trailing" id="aI8-TB-1kl"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="G6y-ik-Yc9"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="M7h-rj-PXK" secondAttribute="trailing" id="IGO-cZ-eJu"/>
+                <constraint firstItem="M7h-rj-PXK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="al4-tq-oyC"/>
+                <constraint firstAttribute="bottom" secondItem="M7h-rj-PXK" secondAttribute="bottom" id="lEh-6i-C5h"/>
+                <constraint firstItem="M7h-rj-PXK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sGk-XW-OpQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="55.200000000000003" y="-260.41979010494754"/>
+        </view>
+    </objects>
+</document>
