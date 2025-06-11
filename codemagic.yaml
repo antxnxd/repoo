@@ -3,8 +3,8 @@ workflows:
     name: iOS Build & Test
     environment:
       xcode: latest
-      ruby: latest
-      cocoapods: "1.11.3"  # specify version as string
+      ruby: "3.2.2"
+      cocoapods: "1.11.3"
 
     scripts:
       - name: Install dependencies
