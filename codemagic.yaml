@@ -8,8 +8,15 @@ workflows:
     scripts:
       - name: Install dependencies
         script: |
-          gem install cocoapods -v 1.11.3
-          pod install --repo-update
+          echo "Ruby version: $(ruby -v)"
+          echo "Gem version: $(gem -v)"
+
+          echo "Installing CocoaPods..."
+          gem install cocoapods -v 1.11.3 || { echo 'CocoaPods installation failed'; exit 1; }
+
+          echo "Running pod install..."
+          pod install --repo-update || { echo 'pod install failed'; exit 1; }
+
 
       - name: Run tests
         script: xcodebuild test \
