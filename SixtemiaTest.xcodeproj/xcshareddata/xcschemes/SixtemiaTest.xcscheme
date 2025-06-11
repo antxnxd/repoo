@@ -6,21 +6,35 @@
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F9111BA215116A60028AC18"
-               BuildableName = "SixtemiaTest.app"
-               BlueprintName = "SixtemiaTest"
-               ReferencedContainer = "container:SixtemiaTest.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-      </BuildActionEntries>
+   <BuildActionEntry
+      buildForTesting = "YES"
+      buildForRunning = "YES"
+      buildForProfiling = "YES"
+      buildForArchiving = "YES"
+      buildForAnalyzing = "YES">
+      <BuildableReference
+         BuildableIdentifier = "primary"
+         BlueprintIdentifier = "4F9111BA215116A60028AC18"
+         BuildableName = "SixtemiaTest.app"
+         BlueprintName = "SixtemiaTest"
+         ReferencedContainer = "container:SixtemiaTest.xcodeproj">
+      </BuildableReference>
+   </BuildActionEntry>
+   <BuildActionEntry
+      buildForTesting = "YES"
+      buildForRunning = "NO"
+      buildForProfiling = "NO"
+      buildForArchiving = "NO"
+      buildForAnalyzing = "NO">
+      <BuildableReference
+         BuildableIdentifier = "primary"
+         BlueprintIdentifier = "4F9111BE215116A60028AC18"
+         BuildableName = "SixtemiaTestTests.xctest"
+         BlueprintName = "SixtemiaTestTests"
+         ReferencedContainer = "container:SixtemiaTest.xcodeproj">
+      </BuildableReference>
+   </BuildActionEntry>
+</BuildActionEntries>
    </BuildAction>
    <TestAction
   buildConfiguration = "Debug"
